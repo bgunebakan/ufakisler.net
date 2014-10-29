@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Wed Oct 29 2014 20:04:38 GMT+0000 (UTC) -->
+<html style="" class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-robotocondensed-n3-active wf-robotocondensed-n4-active wf-active" data-wf-site="54514700b2f1f60305790f16" data-wf-page="54514700b2f1f60305790f18"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><title>Florence Responsive Website Template | Webflow Templates</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="Webflow"><link rel="stylesheet" type="text/css" href="index_files/ufakiler-atolyesi.css"><script src="index_files/webfont.js"></script><link href="index_files/css.css" rel="stylesheet"><script>WebFont.load({
+  google: {
+    families: ["Roboto:300,regular,500","Roboto Condensed:300,regular"]
+  }
+});</script><script type="text/javascript" src="index_files/modernizr-2.js"></script><link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico"></head><body><div class="header" id="header"><div class="w-container"><div class="navigation"><a class="w-inline-block logo-link w--current" href="#header"><h1 class="logo">Ufak İşler<br>Atölyesi</h1></a><a class="nav-link" href="#my-story">Kimiz ?</a><a class="nav-link" href="#photos">Projeler</a><a class="nav-link" href="#journal">Yazılar</a><a class="nav-link" href="#contact">İletişim</a></div></div></div><div class="section" id="my-story"><div class="w-container"><div class="w-row"><div class="w-col w-col-4 align-right"><h2>Kimiz?</h2></div><div class="w-col w-col-8"><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean 
+faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem 
+vitae risus tristique posuere.</p><p>Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Suspendisse varius enim in eros elementum 
+tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
+nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo 
+cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique 
+posuere.</p><h3>Atölyemiz</h3><img class="image" src="index_files/5307d2855119a6eb6b000109_sunrize.jpg" alt="5307d2855119a6eb6b000109_sunrize.jpg"><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean 
+faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem 
+vitae risus tristique posuere.</p><p>Lorem ipsum dolor sit amet, 
+consectetur adipiscing elit. Suspendisse varius enim in eros elementum 
+tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum 
+nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo 
+cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique 
+posuere.</p></div></div></div></div><div class="section green" id="photos"><div class="w-container"><div class="w-row"><div class="w-col w-col-4 align-right"><h2>Projeler</h2></div><div class="w-col w-col-8"><h3>SağlamDiş klinik yardımcısı</h3><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean 
+faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem 
+vitae risus tristique posuere.</p><img class="thumbnail" src="index_files/5307d357663cb6142a0001cc_thumb1.jpg" alt="5307d357663cb6142a0001cc_thumb1.jpg" width="125"><img class="thumbnail" src="index_files/5307d3a0663cb6142a0001cf_thumb11.jpg" alt="5307d3a0663cb6142a0001cf_thumb11.jpg" width="125"><img class="thumbnail" src="index_files/5307d3af1c0800ec6b0000db_thumb3.jpg" alt="5307d3af1c0800ec6b0000db_thumb3.jpg" width="125"><img class="thumbnail" src="index_files/5307d3ba5119a6eb6b00010f_thumb6.jpg" alt="5307d3ba5119a6eb6b00010f_thumb6.jpg" width="125"><img class="thumbnail" src="index_files/5307d3c65119a6eb6b000110_thumb7.jpg" alt="5307d3c65119a6eb6b000110_thumb7.jpg" width="125"><img class="thumbnail" src="index_files/5307d3f71c0800ec6b0000dd_thumb10.jpg" alt="5307d3f71c0800ec6b0000dd_thumb10.jpg" width="125"><img class="thumbnail" src="index_files/5307d4021c0800ec6b0000de_thumb12.jpg" alt="5307d4021c0800ec6b0000de_thumb12.jpg" width="125"><h3>Diğer bir proje</h3><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean 
+faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem 
+vitae risus tristique posuere.</p><img class="thumbnail" src="index_files/5307d4445119a6eb6b000115_thumb14.jpg" alt="5307d4445119a6eb6b000115_thumb14.jpg" width="125"><img class="thumbnail" src="index_files/5307d43c5119a6eb6b000114_thumb13.jpg" alt="5307d43c5119a6eb6b000114_thumb13.jpg" width="125"><img class="thumbnail" src="index_files/5307d44b1c0800ec6b0000e3_thumb17.jpg" alt="5307d44b1c0800ec6b0000e3_thumb17.jpg" width="125"><img class="thumbnail" src="index_files/5307d45c1c0800ec6b0000e6_thumb19.jpg" alt="5307d45c1c0800ec6b0000e6_thumb19.jpg" width="125"><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean 
+faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem 
+vitae risus tristique posuere.</p></div></div></div></div><div class="section" id="journal"><div class="w-container"><div class="w-row"><div class="w-col w-col-4 align-right"><h2>Yazılar</h2></div><div class="w-col w-col-8"><a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page"><h2>3d printer</h2><p>January 14&nbsp;&nbsp;• &nbsp;Travel</p><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor...</p></a><a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page"><h2>Shooting Patagonia</h2><p>December 14&nbsp;&nbsp;• &nbsp;Travel</p><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor...</p></a><a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page"><h2>Beasts of the Wild</h2><p>February 28&nbsp;&nbsp;• &nbsp;Travel</p><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor...</p></a><a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page"><h2>Life with another</h2><p>January 14&nbsp;&nbsp;• &nbsp;Travel</p><p>Lorem
+ ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius 
+enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
+eros dolor...</p></a></div></div></div></div><div class="section green" id="contact"><div class="w-container"><div class="w-row"><div class="w-col w-col-4 align-right"><h2>İletişim</h2></div><div class="w-col w-col-8"><div class="w-form"><form name="email-form" data-name="Email Form"><input class="w-input field" placeholder="Enter your name" name="name" data-name="Name" type="text"><input class="w-input field" placeholder="Enter your email address" name="email" data-name="Email" required="required" type="email"><textarea class="w-input field comments" placeholder="Example Text"></textarea><input class="w-button button" value="Send Message" data-wait="Please wait..." type="submit"></form><div class="w-form-done success"><h2>Thank you!</h2><p>Your submission has been received!</p></div><div class="w-form-fail"><p>Oops! Something went wrong while submitting the form :(</p></div></div></div></div></div></div>
+<script type="text/javascript" src="index_files/jquery.js"></script>
+<script type="text/javascript" src="index_files/webflow.js"></script>
+<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+
+</body></html>
