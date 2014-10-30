@@ -81,89 +81,40 @@
 	  <div class="w-col w-col-4 align-right">
 	    <h2>Projeler</h2>
 	  </div>
+	  {%if latest_project_list %}
 	  <div class="w-col w-col-8">
-	    <h3>SağlamDiş klinik yardımcısı</h3>
-	    <p>Lorem
-	      ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-	      enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-	      eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
-	      faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
-	      vitae risus tristique posuere.
-	    </p>
+	    {% for project in latest_project_list%}
+	    <h3>{{ project.title }}</h3>
+	    <p>{{ project.description }} </p>
+	
 	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d357663cb6142a0001cc_thumb1.jpg" alt="5307d357663cb6142a0001cc_thumb1.jpg" width="125">
 	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3a0663cb6142a0001cf_thumb11.jpg" alt="5307d3a0663cb6142a0001cf_thumb11.jpg" width="125">
 	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3af1c0800ec6b0000db_thumb3.jpg" alt="5307d3af1c0800ec6b0000db_thumb3.jpg" width="125">
 	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3ba5119a6eb6b00010f_thumb6.jpg" alt="5307d3ba5119a6eb6b00010f_thumb6.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3c65119a6eb6b000110_thumb7.jpg" alt="5307d3c65119a6eb6b000110_thumb7.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3f71c0800ec6b0000dd_thumb10.jpg" alt="5307d3f71c0800ec6b0000dd_thumb10.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d4021c0800ec6b0000de_thumb12.jpg" alt="5307d4021c0800ec6b0000de_thumb12.jpg" width="125">
-	    <h3>Diğer bir proje</h3>
-	    <p>Lorem
-	      ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-	      enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-	      eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
-	      faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
-	      vitae risus tristique posuere.
-	    </p>
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d4445119a6eb6b000115_thumb14.jpg" alt="5307d4445119a6eb6b000115_thumb14.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d43c5119a6eb6b000114_thumb13.jpg" alt="5307d43c5119a6eb6b000114_thumb13.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d44b1c0800ec6b0000e3_thumb17.jpg" alt="5307d44b1c0800ec6b0000e3_thumb17.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d45c1c0800ec6b0000e6_thumb19.jpg" alt="5307d45c1c0800ec6b0000e6_thumb19.jpg" width="125">
-	    <p>Lorem
-	      ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-	      enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-	      eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
-	      faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
-	      vitae risus tristique posuere.
-	    </p>
+	    {% endfor %}
 	  </div>
+	  {% endif %}
 	</div>
       </div>
     </div>
+
     <div class="section" id="journal">
       <div class="w-container">
 	<div class="w-row">
 	  <div class="w-col w-col-4 align-right">
 	    <h2>Yazılar</h2>
 	  </div>
+	  {% if latest_post_list %}
 	  <div class="w-col w-col-8">
-	    <a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page">
-	      <h2>3d printer</h2>
-	      <p>January 14&nbsp;&nbsp;• &nbsp;Travel</p>
-	      <p>Lorem
-		ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-		enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-		eros dolor...
-	      </p>
+	    {% for post in latest_post_list %}
+	    <a class="w-inline-block journal-entry" href="{% url 'ufakisler:index' %}">
+	      <h2>{{ post.title }}</h2>
+	      <p>{{ post.date }}</p>
+	      <p>{{ post.text }} </p>
 	    </a>
-	    <a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page">
-	      <h2>Shooting Patagonia</h2>
-	      <p>December 14&nbsp;&nbsp;• &nbsp;Travel</p>
-	      <p>Lorem
-		ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-		enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-		eros dolor...
-	      </p>
-	    </a>
-	    <a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page">
-	      <h2>Beasts of the Wild</h2>
-	      <p>February 28&nbsp;&nbsp;• &nbsp;Travel</p>
-	      <p>Lorem
-		ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-		enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-		eros dolor...
-	      </p>
-	    </a>
-	    <a class="w-inline-block journal-entry" href="http://ufakiler-atolyesi.webflow.com/journal-page">
-	      <h2>Life with another</h2>
-	      <p>January 14&nbsp;&nbsp;• &nbsp;Travel</p>
-	      <p>Lorem
-		ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-		enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-		eros dolor...
-	      </p>
-	    </a>
+	    {% endfor %}
 	  </div>
+	  {% endif %}
 	</div>
       </div>
     </div>
@@ -174,13 +125,18 @@
 	    <h2>İletişim</h2>
 	  </div>
 	  <div class="w-col w-col-8">
+	    
 	    <div class="w-form">
 	      <form name="email-form" data-name="Email Form">
+
 		<input class="w-input field" placeholder="Enter your name" name="name" data-name="Name" type="text">
 		<input class="w-input field" placeholder="Enter your email address" name="email" data-name="Email" required="required" type="email">
 		<textarea class="w-input field comments" placeholder="Example Text"></textarea>
+
 		<input class="w-button button" value="Send Message" data-wait="Please wait..." type="submit">
+
 	      </form>
+
 	      <div class="w-form-done success">
 		<h2>Thank you!</h2>
 		<p>Your submission has been received!</p>

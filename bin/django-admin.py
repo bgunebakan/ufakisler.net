@@ -1,4 +1,6 @@
 #!/home/gunebakan/DjangoProjects/ufakisler.net/bin/python
+# -*- coding: utf-8 -*-
+
 from django.core import management
 
 if __name__ == "__main__":
