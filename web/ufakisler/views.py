@@ -10,3 +10,8 @@ def index(request):
     context = {'latest_post_list': latest_post_list,
                'latest_project_list': latest_project_list}
     return render(request, 'ufakisler/index.html', context)
+
+def post_detail(request,post_id):
+
+    
+    return HttpResponse(post_id)

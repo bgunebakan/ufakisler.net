@@ -26,7 +26,7 @@
       <div class="w-container">
 	<div class="navigation">
 	  <a class="w-inline-block logo-link w--current" href="#header">
-	    <h1 class="logo">Ufak İşler<br>Atölyesi</h1>
+      <img class="image" src="{{ STATIC_URL }}ufakisler/logo.png" alt="logo.png">
 	  </a>
 	  <a class="nav-link" href="#my-story">Kimiz ?</a>
 	  <a class="nav-link" href="#photos">Projeler</a>
@@ -84,14 +84,22 @@
 	  {%if latest_project_list %}
 	  <div class="w-col w-col-8">
 	    {% for project in latest_project_list%}
-	    <h3>{{ project.title }}</h3>
+	    <a href="{{ project.link }}"><h3>{{ project.title }}</h3></a>
 	    <p>{{ project.description }} </p>
-	
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d357663cb6142a0001cc_thumb1.jpg" alt="5307d357663cb6142a0001cc_thumb1.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3a0663cb6142a0001cf_thumb11.jpg" alt="5307d3a0663cb6142a0001cf_thumb11.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3af1c0800ec6b0000db_thumb3.jpg" alt="5307d3af1c0800ec6b0000db_thumb3.jpg" width="125">
-	    <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3ba5119a6eb6b00010f_thumb6.jpg" alt="5307d3ba5119a6eb6b00010f_thumb6.jpg" width="125">
-	    {% endfor %}
+
+	    <a href="{{ STATIC_URL }}ufakisler/5307d357663cb6142a0001cc_thumb1.jpg">
+        <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d357663cb6142a0001cc_thumb1.jpg" alt="5307d357663cb6142a0001cc_thumb1.jpg" width="125">
+      </a>
+      <a href="{{ STATIC_URL }}ufakisler/5307d3a0663cb6142a0001cf_thumb11.jpg">
+	      <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3a0663cb6142a0001cf_thumb11.jpg" alt="5307d3a0663cb6142a0001cf_thumb11.jpg" width="125">
+      </a>
+      <a href="{{ STATIC_URL }}ufakisler/5307d3af1c0800ec6b0000db_thumb3.jpg">
+      <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3af1c0800ec6b0000db_thumb3.jpg" alt="5307d3af1c0800ec6b0000db_thumb3.jpg" width="125">
+      </a>
+      <a href="{{ STATIC_URL }}ufakisler/5307d3ba5119a6eb6b00010f_thumb6.jpg">
+      <img class="thumbnail" src="{{ STATIC_URL }}ufakisler/5307d3ba5119a6eb6b00010f_thumb6.jpg" alt="5307d3ba5119a6eb6b00010f_thumb6.jpg" width="125">
+      </a>
+      {% endfor %}
 	  </div>
 	  {% endif %}
 	</div>
@@ -107,11 +115,11 @@
 	  {% if latest_post_list %}
 	  <div class="w-col w-col-8">
 	    {% for post in latest_post_list %}
-	    <a class="w-inline-block journal-entry" href="{% url 'ufakisler:index' %}">
+	    <a class="w-inline-block journal-entry" href="{% url 'ufakisler:post_detail' post.id %}">
 	      <h2>{{ post.title }}</h2>
-	      <p>{{ post.date }}</p>
-	      <p>{{ post.text }} </p>
 	    </a>
+      <p>{{ post.date }}</p>
+      <p>{{ post.text }} </p>
 	    {% endfor %}
 	  </div>
 	  {% endif %}
@@ -125,24 +133,23 @@
 	    <h2>İletişim</h2>
 	  </div>
 	  <div class="w-col w-col-8">
-	    
+
 	    <div class="w-form">
 	      <form name="email-form" data-name="Email Form">
 
-		<input class="w-input field" placeholder="Enter your name" name="name" data-name="Name" type="text">
-		<input class="w-input field" placeholder="Enter your email address" name="email" data-name="Email" required="required" type="email">
-		<textarea class="w-input field comments" placeholder="Example Text"></textarea>
-
-		<input class="w-button button" value="Send Message" data-wait="Please wait..." type="submit">
+		      <input class="w-input field" placeholder="Enter your name" name="name" data-name="Name" type="text">
+		      <input class="w-input field" placeholder="Enter your email address" name="email" data-name="Email" required="required" type="email">
+		      <textarea class="w-input field comments" placeholder="Example Text"></textarea>
+		      <input class="w-button button" value="Send Message" data-wait="Please wait..." type="submit">
 
 	      </form>
 
 	      <div class="w-form-done success">
-		<h2>Thank you!</h2>
-		<p>Your submission has been received!</p>
+		        <h2>Thank you!</h2>
+		        <p>Your submission has been received!</p>
 	      </div>
 	      <div class="w-form-fail">
-		<p>Oops! Something went wrong while submitting the form :(</p>
+		        <p>Oops! Something went wrong while submitting the form :(</p>
 	      </div>
 	    </div>
 	  </div>
