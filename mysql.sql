@@ -3,4 +3,4 @@ USE `ufakisler`;
 CREATE USER 'web_user'@'localhost' IDENTIFIED BY '123456';
 GRANT ALL PRIVILEGES ON ufakisler.* TO 'web_user'@'localhost';
 FLUSH PRIVILEGES;
-
+#
