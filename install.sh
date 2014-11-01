@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo apt-get install libmysqlclient-dev
+sudo apt-get install python-dev
 sudo apt-get install python-mysqldb
 sudo apt-get install mysql-server
 cd ..
