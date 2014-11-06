@@ -13,5 +13,10 @@ def index(request):
 
 def post_detail(request,post_id):
 
-    
+
     return HttpResponse(post_id)
+
+
+def contact(request):
+
+    return HttpResponse("contact")

@@ -41,21 +41,13 @@
 	  <div class="w-col w-col-4 align-right"><h2>Who ?</h2>
 	  </div>
 	  <div class="w-col w-col-8">
-	    <p>Lorem
-	      ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
-	      enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
-	      eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
-	      faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
-	      vitae risus tristique posuere.
+	    <p>We are makers whom working on electronics and programming.
+
 	    </p>
-	    <p>Lorem ipsum dolor sit amet,
-	      consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-	      tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum
-	      nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
-	      cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-	      posuere.
+	    <p>
+
 	    </p>
-	    <h3>Atölyemiz</h3>
+	    <h3>Our workshop</h3>
 	    <img class="image" src="{{ STATIC_URL }}ufakisler/5307d2855119a6eb6b000109_sunrize.jpg" alt="5307d2855119a6eb6b000109_sunrize.jpg">
 	    <p>Lorem
 	      ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
@@ -79,7 +71,7 @@
       <div class="w-container">
 	<div class="w-row">
 	  <div class="w-col w-col-4 align-right">
-	    <h2>Projeler</h2>
+	    <h2>Projects</h2>
 	  </div>
 	  {%if latest_project_list %}
 	  <div class="w-col w-col-8">
@@ -110,7 +102,7 @@
       <div class="w-container">
 	<div class="w-row">
 	  <div class="w-col w-col-4 align-right">
-	    <h2>Yazılar</h2>
+	    <h2>Journal</h2>
 	  </div>
 	  {% if latest_post_list %}
 	  <div class="w-col w-col-8">
@@ -130,35 +122,27 @@
       <div class="w-container">
 	<div class="w-row">
 	  <div class="w-col w-col-4 align-right">
-	    <h2>İletişim</h2>
+	    <h2>Contact</h2>
 	  </div>
 	  <div class="w-col w-col-8">
 
 	    <div class="w-form">
-	      <form name="email-form" data-name="Email Form">
+	      <form name="contact-form" action="{% url 'ufakisler:contact' %}">
 
-		      <input class="w-input field" placeholder="Enter your name" name="name" data-name="Name" type="text">
-		      <input class="w-input field" placeholder="Enter your email address" name="email" data-name="Email" required="required" type="email">
-		      <textarea class="w-input field comments" placeholder="Example Text"></textarea>
-		      <input class="w-button button" value="Send Message" data-wait="Please wait..." type="submit">
+		      <input class="w-input field" placeholder="Enter your name" name="name" >
+		      <input class="w-input field" placeholder="Enter your email address" name="email" required="required" >
+		      <textarea class="w-input field comments" placeholder="Example Text" name="text "></textarea>
+
+		      <input class="w-button button" value="Send Message" type="submit">
 
 	      </form>
-
-	      <div class="w-form-done success">
-		        <h2>Thank you!</h2>
-		        <p>Your submission has been received!</p>
-	      </div>
-	      <div class="w-form-fail">
-		        <p>Oops! Something went wrong while submitting the form :(</p>
-	      </div>
 	    </div>
 	  </div>
 	</div>
       </div>
     </div>
-    <script type="text/javascript" src="{{ STATIC_URL }}ufakisler/jquery.js"></script>
-    <script type="text/javascript" src="{{ STATIC_URL }}ufakisler/webflow.js"></script>
-    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+
+
 
   </body>
 </html>
